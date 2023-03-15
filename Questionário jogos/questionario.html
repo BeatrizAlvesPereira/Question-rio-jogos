@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "description" content = "Questionário de jogos.">
+        <meta name = "robots" content = "noindex, nofollow">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title>Questionário Jogos</title>
+        <link rel = "stylesheet" type = "text/css" href = "questionario.css"/>
+    </head>
+    <body>
+
+        <!-- 1° serção - Cabeçalho -->
+        <header>
+            <h1>Questionário</h1>
+        </header>
+
+        <!-- Página principal -->
+        <main>
+
+            <!-- 2° serção - Questionário-->
+            <section>
+                <h2>Questionário</h2>
+                <p>Responda o questionário abaixo marcando as opções que correspondem as suas preferências por jogos.</p>
+
+                <!-- Formulário de checkbox -->
+                <form method = "get" action = "https://www.devmedia.com.br/codigos/formularios/aula5/">
+
+                    <!-- 1° questionário -->
+                    <div class = "primeiro-check">
+                        <p>Quais plataformas de jogos você utiliza?</p>
+                        <input type = "checkbox" id = "plataforma-xbox" name = "plataformas[]" value = "Xbox"/>
+                        <label for = "plataforma-xbox">Xbox</label><br />
+                        <input type = "checkbox" id = "plataforma-ps" name = "plataformas[]" value = "PlayStation"/>
+                        <label for = "plataforma-ps">PlayStation</label><br />
+                        <input type = "checkbox" id = "plataforma-switch" name = "plataformas[]" value = "Switch"/>
+                        <label for = "plataforma-switch">Switch</label><br />
+                        <input type = "checkbox" id = "plataforma-stadia" name = "plataformas[]" value = "Stadia"/>
+                        <label for = "plataforma-stadia">Stadia</label><br />
+                        <input type = "checkbox" id = "plataforma-pc" name = "plataformas[]" value = "PC"/>
+                        <label for = "plataforma-pc">PC</label><br />
+                    </div>
+                    
+                    <!-- 2° questionário -->
+                    <div class = "segundo-check">
+                        <p>Quais seus gêneros de jogo preferidos?</p>
+                        <input type = "checkbox" id = "genero-acao" name = "generos[]" value = "Ação"/>
+                        <label for = "genero-acao">Ação</label><br />
+                        <input type = "checkbox" id = "genero-aventura" name = "generos[]" value = "Aventura"/>
+                        <label for = "genero-aventura">Aventura</label><br />
+                        <input type = "checkbox" id = "genero-plataforma" name = "generos[]" value = "Plataforma"/>
+                        <label for = "genero-plataforma">Plataforma</label><br />
+                        <input type = "checkbox" id = "genero-rpg" name = "generos[]" value = "RPG"/>
+                        <label for = "genero-rpg">RPG</label><br />
+                        <input type = "checkbox" id = "genero-tiro" name = "generos[]" value = "Tiro"/>
+                        <label for = "genero-tiro">Tiro</label><br />
+                        <input type = "checkbox" id = "genero-corrida" name = "generos[]" value = "Corrida"/>
+                        <label for = "genero-corrida">Corrida</label><br />
+                        <button type = "submit">Enviar Questionário</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+
+        <!-- 3° serção - Rodapé -->
+        <footer>
+            <p>&copy; Copyright 2022 - Questionário</p>
+            <p>Desenvolvido por <span>Beatriz Alves</span></p>
+        </footer>
+    </body>
+</html>

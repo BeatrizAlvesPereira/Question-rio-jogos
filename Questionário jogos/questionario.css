@@ -1,0 +1,71 @@
+/* Estilização de toda a página */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+
+/* 1° serção - estilização do cabeçalho */
+header{
+    width: 100%;
+    background-color: #7C008B;
+}
+h1{
+    font-size: 16px;
+    font-weight: normal;
+    color: #F8F8F8;
+    padding: 20px;
+}
+
+/* Estilização da página principal */
+main{
+    width: 100%;
+    max-width: 430px;
+    margin: 0 auto;
+}
+
+/* 2° serção - estilização da serção questionário */
+h2{
+    font-size: 32px;
+    color: #7C008B;
+    margin: 25px 0 20px 0;
+}
+p{
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0 0 25px 0;
+    padding-bottom: 5px;
+}
+.primeiro-check p, .segundo-check p{
+    margin: 15px 0 15px 0;
+    padding: 0;
+}
+button{
+    width: 100%;
+    font-size: 16px;
+    background-color: #7C008B;
+    color: #F8F8F8;
+    border: none;
+    margin: 15px 0;
+    padding: 7px 0;
+}
+
+/* 3° serção - estilização do Rodapé */
+footer{
+    width: 100%;
+    background-color: #F8F8F8;
+    bottom: 0;
+    position: absolute;
+    padding: 10px 0;
+}
+footer p{
+    text-align: center;
+    color: #7C008B;
+    margin: 0;
+    padding: 0;
+}
+footer span{
+    font-weight: bold;
+}
